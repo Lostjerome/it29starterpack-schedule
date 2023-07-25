@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Arial", sans-serif;
+}
+
+/* fallback color for background */
+body {
+    background-color: #303030;
+}
+.catstronaut-bg {
+    background-image: url("./assets/backgrounds/catstronaut.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background blur */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.catstronaut-card {
+    background-image: url("./assets/cards/catstronaut.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.venuspurr {
+    background-image: url("./assets/backgrounds/venuspurr.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.venuspurr-card {
+    background-image: url("./assets/cards/venuspurr.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.venuspurr-bg {
+    background-image: url("./assets/backgrounds/venuspurr.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background blur */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.catterra {
+    background-image: url("./assets/backgrounds/catterra.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catterra-card {
+    background-image: url("./assets/cards/catterra.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catterra-bg {
+    background-image: url("./assets/backgrounds/catterra.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background blur */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.meowtian {
+    background-image: url("./assets/backgrounds/meowtian.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meowtian-card {
+    background-image: url("./assets/cards/meowtian.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meowtian-bg {
+    background-image: url("./assets/backgrounds/meowtian.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background blur */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.neptunclaw {
+    background-image: url("./assets/backgrounds/neptunclaw.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neptunclaw-card {
+    background-image: url("./assets/cards/neptunclaw.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neptunclaw-bg {
+    background-image: url("./assets/backgrounds/neptunclaw.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background image blur */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.caturn {
+    background-image: url("./assets/backgrounds/caturn.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caturn-card {
+    background-image: url("./assets/cards/caturn.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caturn-bg {
+    background-image: url("./assets/backgrounds/caturn.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background blur */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+/* calendar */
+
+.react-calendar button {
+    border-radius: 0.5rem;
+}
+
+.react-calendar__tile--active {
+    background: #0d6efd;
+    color: white;
+}
+
+abbr:where([title]) {
+    text-decoration: none;
+}
